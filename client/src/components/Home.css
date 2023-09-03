@@ -1,0 +1,50 @@
+/* Home.css */
+
+.home-container {
+    background-color: #0066cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .home {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin: 1rem 0;
+  }
+  
+  input,
+  select {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .start-button {
+    background-color: #0066cc;
+    border: none;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .start-button:hover {
+    background-color: #0055b3;
+  }
+  
